@@ -1,0 +1,27 @@
+POST http://localhost:4002/products
+Content-Type: application/json
+
+{
+    "name": "lixo",
+    "price": "4200"
+}
+
+###
+GET http://localhost:4002/products
+
+###
+GET http://localhost:4002/products/737ed10d-13aa-46e6-9d2a-d0ee35876ae4
+
+###
+
+PUT  http://localhost:4002/products/6b09801d-43a1-4c75-8cf7-a8472c05a6d6
+Content-Type: application/json
+
+{
+    "name": "bola de futebol",
+    "price": "6000"
+}
+
+
+###
+DELETE http://localhost:4002/products/06725d67-ed14-4405-b04c-aa14a382cb67
